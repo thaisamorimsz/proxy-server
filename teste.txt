@@ -1,0 +1,16 @@
+476 Ciência 22176
+682 Guitarra 79595
+781 Ferro 11606
+813 Argentina 55386
+912 Transistor 12528
+1004 Nina_Simone 12036
+1247 Ciência 22176
+1248 Guitarra 79595
+1515 Argentina 55386
+1794 Guitarra 79595
+1814 Argentina 55386
+1862 Argentina 55386
+2173 Guitarra 79595
+2372 Ouro 8593
+2372 Paraguai 14804
+2565 Guitarra 79595
