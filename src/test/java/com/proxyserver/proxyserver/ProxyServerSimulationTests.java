@@ -21,8 +21,8 @@ public class ProxyServerSimulationTests {
         String cacheDocumentName = "teste.txt";
         HashMap<String, Long> results = proxyServerSimulation.dictionary(cacheDocumentName);
 
-        assertEquals(results.get("tamanho final do cache"), 216724);
-        assertEquals(results.get("quantidade de bytes economizados em requisições"), 506714);
+        assertEquals(results.get("tamanho final do cache"), 216724L);
+        assertEquals(results.get("quantidade de bytes economizados em requisições"), 506714L);
 
     }
 
@@ -31,8 +31,9 @@ public class ProxyServerSimulationTests {
         String cacheDocumentName = "wikipedia.txt";
         HashMap<String, Long> results = proxyServerSimulation.dictionary(cacheDocumentName);
 
-        System.out.println(results.get("tamanho final do cache"));
-        System.out.println(results.get("quantidade de bytes economizados em requisições"));
+        System.out.println("tamanho final do cache: " + results.get("tamanho final do cache"));
+        System.out.println("quantidade de bytes economizados em requisições: "
+                + results.get("quantidade de bytes economizados em requisições"));
 
     }
 
