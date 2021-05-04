@@ -24,6 +24,9 @@ public class ProxyServerSimulation {
 	 * 
 	 * @author Denis Yudi Nakajima
 	 * 
+	 * @return retorna os resultados da simulação, que são: tamanho final do cache e
+	 * quantidade de bytes economizados em requisições
+	 * 
 	 * @see List
 	 * 
 	 * @see Files
