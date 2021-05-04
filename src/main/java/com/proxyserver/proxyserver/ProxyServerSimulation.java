@@ -12,6 +12,32 @@ import com.proxyserver.proxyserver.model.Resource;
 
 public class ProxyServerSimulation {
 
+	/*
+	 * Este método é responsável por simular um servidor proxy para serviço de cache
+	 * de internet, recebendo como parâmetros:
+	 * 
+	 * @param cacheDocumentName - nome do documento com os dados de acesso
+	 * 
+	 * @author Thais Amorim Souza
+	 * 
+	 * @author André Kazuo Yasui
+	 * 
+	 * @author Denis Yudi Nakajima
+	 * 
+	 * @see List
+	 * 
+	 * @see Files
+	 * 
+	 * @see HashMap
+	 * 
+	 * @see Arrays
+	 * 
+	 * @see Path
+	 * 
+	 * @see Paths
+	 * 
+	 * @version 0.0
+	 */
 	public HashMap<String, Long> dictionary(String cacheDocumentName) {
 
 		HashMap<String, Long> results = new HashMap<String, Long>();
@@ -58,6 +84,14 @@ public class ProxyServerSimulation {
 		return null;
 	}
 
+	/*
+	 * Este método é responsável por recuperar um arquivo presente na pasta do
+	 * projeto.
+	 *
+	 * @param cacheDocumentName - nome do documento com os dados de acesso
+	 * 
+	 * @throws IOException
+	 */
 	protected List<String> documentLines(String cacheDocumentName) throws IOException {
 
 		Path path = Paths.get(cacheDocumentName);
